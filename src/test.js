@@ -163,5 +163,4 @@ if (require.main === module) {
         console.error('❌ Test failed:', error.message);
     });
 }
-
 module.exports = { testParser, testApiEndpoints };
