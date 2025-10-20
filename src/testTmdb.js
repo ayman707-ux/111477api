@@ -127,5 +127,4 @@ if (require.main === module) {
         console.error('❌ Test failed:', error.message);
     });
 }
-
 module.exports = { testTmdbFunctionality, testApiEndpoints };
