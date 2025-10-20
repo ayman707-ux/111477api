@@ -97,7 +97,6 @@ async function testUrl(url) {
         return false;
     }
 }
-
 module.exports = {
     fetchHtml,
     fetchMovieByName,
