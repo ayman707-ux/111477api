@@ -417,7 +417,7 @@
         
         async function testHealth() {
             showLoading();
-            
+        
             try {
                 const response = await fetch(`${getApiUrl()}/health`);
                 const data = await response.json();
